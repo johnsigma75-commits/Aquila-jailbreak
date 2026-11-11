@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jailbreak Installer</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; text-align: center; padding: 40px 20px; background-color: #000; color: #fff; }
+        h1 { font-size: 28px; margin-bottom: 10px; }
+        p { color: #888; font-size: 16px; }
+        .btn { display: inline-block; margin-top: 30px; padding: 15px 40px; background-color: #34c759; color: #fff; font-weight: bold; text-decoration: none; border-radius: 10px; font-size: 18px; }
+        .btn:active { background-color: #248a3d; }
+    </style>
+</head>
+<body>
+
+    <h1>Jailbreak Installer</h1>
+    <p>Tap below to install Aquila directly over-the-air.</p>
+
+    <!-- Triggers iOS Safari to parse the plist file and start downloading -->
+    <a class="btn" href="itms-services://?action=download-manifest&url=https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/manifest.plist">
+        Install Aquila
+    </a>
+
+</body>
+</html>
